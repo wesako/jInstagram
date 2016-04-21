@@ -7,7 +7,7 @@
     </parent>
 
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.sachinhandiekar</groupId>
+    <groupId>com.wesako</groupId>
     <artifactId>jInstagram</artifactId>
     <name>jInstagram</name>
     <version>1.1.7-SNAPSHOT</version>
@@ -45,9 +45,9 @@
     </licenses>
 
     <scm>
-        <connection>scm:git:git@github.com/sachin-handiekar/jInstagram.git</connection>
-        <developerConnection>scm:git:git@github.com:sachin-handiekar/jInstagram.git</developerConnection>
-        <url>git@github.com:sachin-handiekar/jInstagram.git</url>
+        <connection>scm:git:git@github.com/wesako/jInstagram.git</connection>
+        <developerConnection>scm:git:git@github.com:wesako/jInstagram.git</developerConnection>
+        <url>git@github.com:wesako/jInstagram.git</url>
     </scm>
 
     <dependencies>
