@@ -7,7 +7,7 @@
     </parent>
 
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.wesako</groupId>
+    <groupId>com.github.wesako</groupId>
     <artifactId>jInstagram</artifactId>
     <name>jInstagram</name>
     <version>1.1.7-SNAPSHOT</version>
