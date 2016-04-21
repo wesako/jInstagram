@@ -495,7 +495,8 @@ public class Instagram {
     public UserFeed getUserFollowListNextPage(String userId, String cursor) throws InstagramException {
         Preconditions.checkEmptyString(userId, USER_ID_CANNOT_BE_NULL_OR_EMPTY);
 
-        Map<String, String> params = new HashMap<String, String>(1);
+        Map<String, String> params = new HashMap<String, String>(2);
+        params.put("count", "100");
         if (cursor != null)
             params.put("cursor", cursor);
 
@@ -535,7 +536,8 @@ public class Instagram {
     public UserFeed getUserFollowedByListNextPage(String userId, String cursor) throws InstagramException {
         Preconditions.checkEmptyString(userId, USER_ID_CANNOT_BE_NULL_OR_EMPTY);
 
-        Map<String, String> params = new HashMap<String, String>(1);
+        Map<String, String> params = new HashMap<String, String>(2);
+        params.put("count", "100");
         if (cursor != null)
             params.put("cursor", cursor);
 
